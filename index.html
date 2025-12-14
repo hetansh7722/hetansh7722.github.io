@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hetansh Modh | Premium Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="particle-canvas"></canvas>
+
+    <nav>
+        <div class="logo">Hetansh Modh</div>
+        <div class="menu-btn" onclick="toggleMenu()">Menu</div>
+    </nav>
+
+    <div class="menu-overlay">
+        <div class="menu-link-item" onclick="navTo('#benefits')"><span class="menu-link-text">Benefits</span></div>
+        <div class="menu-link-item" onclick="navTo('#projects')"><span class="menu-link-text">Projects</span></div>
+        <div class="menu-link-item" onclick="navTo('#process')"><span class="menu-link-text">Process</span></div>
+        <div class="menu-link-item" onclick="navTo('#contact')"><span class="menu-link-text">Contact</span></div>
+    </div>
+
+    <main>
+        <section class="container hero">
+            <h1 class="hero-title">
+                <div class="line-mask"><span>Weaving</span></div>
+                <div class="line-mask"><span>Winning</span></div>
+                <div class="line-mask"><span>Websites</span></div>
+            </h1>
+            <p class="hero-subtitle">I craft premium websites for creators and startups who want to stand out.</p>
+        </section>
+
+        <section class="container" id="benefits">
+            <div class="section-header">
+                <div class="section-label">Why work with me?</div>
+                <h2 class="section-title">Creativity. Cubed.<br><span style="color: #444;">Results. Squared.</span></h2>
+            </div>
+            <div class="spotlight-grid">
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">01</div>
+                        <h3>Bespoke Design</h3>
+                        <p>No templates. Every pixel is crafted to fit your brand's unique identity.</p>
+                    </div>
+                </div>
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">02</div>
+                        <h3>Seriously Secure</h3>
+                        <p>Built with robust security standards. SSL encryption and automatic backups.</p>
+                    </div>
+                </div>
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">03</div>
+                        <h3>Blazing Fast</h3>
+                        <p>Performance isn't an afterthought. Optimized for 100/100 speed scores.</p>
+                    </div>
+                </div>
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">04</div>
+                        <h3>SEO Optimized</h3>
+                        <p>Clean, semantic code that Google's bots love reading.</p>
+                    </div>
+                </div>
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">05</div>
+                        <h3>ROI Driven</h3>
+                        <p>I build user flows designed to turn visitors into paying clients.</p>
+                    </div>
+                </div>
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="card-icon">06</div>
+                        <h3>Scalable CMS</h3>
+                        <p>Manage your own content easily without touching a line of code.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="projects">
+            <div class="section-header">
+                <div class="section-label">Selected Works</div>
+                <h2 class="section-title">Recent<br>Masterpieces.</h2>
+            </div>
+            <div class="spotlight-grid project-layout">
+                
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="project-tag">Development</div>
+                        <h3>The YouTube Sensei</h3>
+                        <p>A data-driven analytics platform built for creators. Features real-time dashboards.</p>
+                        <a href="https://your-link-to-project-1.com" class="project-link" target="_blank">View Case Study ↗</a>
+                    </div>
+                </div>
+
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="project-tag">Design & Branding</div>
+                        <h3>The Electrifying Coach</h3>
+                        <p>Complete brand overhaul for a high-performance NBA coach.</p>
+                        <a href="https://your-link-to-project-2.com" class="project-link" target="_blank">View Case Study ↗</a>
+                    </div>
+                </div>
+
+                <div class="spotlight-card">
+                    <div class="spotlight-content">
+                        <div class="project-tag">Webflow</div>
+                        <h3>Project C</h3>
+                        <p>Interactive portfolio for an award-winning photographer.</p>
+                        <a href="https://your-link-to-project-3.com" class="project-link" target="_blank">View Case Study ↗</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container process-section" id="process">
+            <div class="process-sidebar">
+                <div class="section-label">The Process</div>
+                <h2>Systematic.<br>Tailored.<br>Transparent.</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <span class="step-num">01</span>
+                    <h3>Discovery</h3>
+                    <p>We start by defining your goals. I dig deep into your brand to understand exactly what you need to succeed.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">02</span>
+                    <h3>Strategy & Design</h3>
+                    <p>I create a roadmap and low-fidelity wireframes. Once approved, we move to high-fidelity design.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">03</span>
+                    <h3>Development</h3>
+                    <p>This is where the magic happens. I write clean, efficient code to bring the designs to life.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-num">04</span>
+                    <h3>Launch</h3>
+                    <p>After rigorous testing, we go live. I ensure everything is perfect and handle the handover.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contact-section" id="contact">
+            <div class="contact-header">
+                <div class="contact-subtitle">Got a vision?</div>
+                <h2 class="contact-title">Let's build it.</h2>
+            </div>
+            
+            <div class="cta-wrapper">
+                <a href="mailto:hetanshmodh.7722@gmail.com?subject=Project%20Inquiry&body=Hi%20Hetansh,%20I'd%20like%20to%20discuss%20a%20project..." class="magnetic-btn">
+                    <span class="btn-text">Start a Project</span>
+                    <span class="btn-fill"></span>
+                </a>
+            </div>
+            
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-label">Contact</div>
+                    <a href="mailto:hetanshmodh.7722@gmail.com?subject=Hello%20Hetansh" class="footer-link-large">hetanshmodh.7722@gmail.com</a>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="footer-label">Socials</div>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://twitter.com/Alpha07722" class="social-link" target="_blank">
+                                Twitter <span>↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/hetansh-modh-bb9b85293" class="social-link" target="_blank">
+                                LinkedIn <span>↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/hetansh7722" class="social-link" target="_blank">
+                                GitHub <span>↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/hetansh_modh" class="social-link" target="_blank">
+                                Instagram <span>↗</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div>© 2025 Hetansh Modh</div>
+                <div>Ahmedabad, India</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
